@@ -1,0 +1,34 @@
+extends _blog.pug
+
+block append subtitle
+  | Alpakka 1.0 - Get the parcel & setup
+
+block content
+  h2 Alpakka 1.0 - Start
+  +news_header('7 April 2025', 'report_a', 'alpakka_start')
+
+  h3 Alpakka 1.0 pre-order
+  p Went off without a hitch. There was a delay in shipping due to a last-minute change to the receiver board after finding inconsistent noise during wireless operation. Here's hoping that their last revision worked out.
+
+  h3 Parcel Checklist
+
+  ul
+    li Electronics Set
+    ul
+      li (2x) Alps Thumbstick
+      li Rotary Encoder
+      li JST 2-Pin PH connector
+      li (4x) Flat Trigger Switches
+      li (2x) Shoulder Button Switches
+    li Soldering Stand
+    li USB-C to A cable
+    li Orange Buttons & Sticks
+    ul
+      li (4x) Face buttons
+      li (4x) D-Pad buttons
+      li Rotary Encoder
+      li Pentagonal Button
+      li Analog Stick
+
+  hr
+  p This blog entry was written by DaMu
